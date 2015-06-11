@@ -6,12 +6,15 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  2.2.1
 
 * System dependencies
 
 * Configuration
+  Install ruby 2.2.1, install rails 4.2.1, run bundle install.
 
 * Database creation
+, rake db:create and rake db:migrate
 
 * Database initialization
 
