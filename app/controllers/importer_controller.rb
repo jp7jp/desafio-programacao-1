@@ -1,13 +1,15 @@
 class ImporterController < ApplicationController
 
+  skip_before_action :verify_authenticity_token
+
   def index    
   end
 
   def upload
     unless params[:file].nil?
-      @revenue = Sale.import(params[:file])      
+      @response = Sale.import(params[:file])      
     end    
 
     render action: "index"    
   end
-end
+end 
