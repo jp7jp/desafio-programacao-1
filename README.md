@@ -25,11 +25,11 @@ Sua aplicação web DEVE:
 1. Exibir a receita bruta total representada pelo arquivo enviado após o upload + parser.
 1. Ser escrita obrigatoriamente em Ruby 2.0+ ou PHP 5.5+ (caso esteja entrevistando para uma vaga específica, utilize a linguagem solicitada pela vaga).
 1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
+1. Utilizar banco de dados SQLite para facilitar setup
 
 Sua aplicação web não precisa:
 
-1. Lidar com autenticação ou autorização (pontos extras se ela fizer, mais pontos extras se a autenticação for feita via OAuth).
-1. Ser escrita usando algum framework específico (mas não há nada errado em usá-los também, use o que achar melhor).
+1. Lidar com autenticação ou autorização.
 1. Ter uma aparência bonita.
 
 ## Avaliação
