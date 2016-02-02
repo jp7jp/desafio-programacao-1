@@ -27,11 +27,6 @@ Sua aplicação web DEVE:
 1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
 1. Utilizar banco de dados SQLite para facilitar setup
 
-Sua aplicação web não precisa:
-
-1. Lidar com autenticação ou autorização.
-1. Ter uma aparência bonita.
-
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios. 
 
