@@ -8,11 +8,6 @@ Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quise
 1. Em seguida, implemente o projeto tal qual descrito abaixo, em seu próprio fork.
 1. Por fim, empurre todas as suas alterações para o seu fork no Github e envie um pull request para este repositório original. Se você já entrou em contato com alguém da JP7 sobre uma vaga, avise também essa pessoa por email, incluindo no email o seu usuário no Github.
 
-## Instruções alternativas de entrega do desafio (caso você não queira que sua submissão seja pública)
-1. Faça um clone deste repositório.
-1. Em seguida, implemente o projeto tal qual descrito abaixo, em seu clone local.
-1. Por fim, envie via email um arquivo patch para seu contato na JP7.
-
 ## Descrição do projeto
 Você recebeu um arquivo de texto com os dados de vendas da empresa. Precisamos criar uma maneira para que estes dados sejam importados para um banco de dados.
 
@@ -23,14 +18,10 @@ Sua aplicação web DEVE:
 1. Aceitar (via um formulário) o upload de arquivos separados por TAB com as seguintes colunas: purchaser name, item description, item price, purchase count, merchant address, merchant name. Você pode assumir que as colunas estarão sempre nesta ordem, que sempre haverá dados em cada coluna, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado example_input.tab está incluído neste repositório.
 1. Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional.
 1. Exibir a receita bruta total representada pelo arquivo enviado após o upload + parser.
+1. Possuir CRUD para criação, listagem, atualização e exclusão de cada registro individualmente
 1. Ser escrita obrigatoriamente em Ruby 2.0+ ou PHP 5.5+ (caso esteja entrevistando para uma vaga específica, utilize a linguagem solicitada pela vaga).
 1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
-
-Sua aplicação web não precisa:
-
-1. Lidar com autenticação ou autorização (pontos extras se ela fizer, mais pontos extras se a autenticação for feita via OAuth).
-1. Ser escrita usando algum framework específico (mas não há nada errado em usá-los também, use o que achar melhor).
-1. Ter uma aparência bonita.
+1. Utilizar banco de dados SQLite para facilitar setup
 
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios. 
